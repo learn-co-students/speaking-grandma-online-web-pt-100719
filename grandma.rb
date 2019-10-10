@@ -5,17 +5,17 @@ def speak_to_grandma(phrase)
   if phrase== "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN!"
  
-  elsif 
-     puts "HUH! SPEAK UP, SONNY!"
+  elsif phrase == "".upcase
+     return "HUH! SPEAK UP, SONNY!"
  
-  else   
+  else   phrase == ""
     return "NO, NOT SINCE 1938!"
   end 
   phrase
 end 
-speak_to_grandma(" ")
+speak_to_grandma("")
 
-# Whatever you say to grandma, she should respond with
+# Whatever you say to grandma, she should respond with                                                                                       
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
 
